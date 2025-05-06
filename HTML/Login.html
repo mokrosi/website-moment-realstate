@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Log in</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/Login.css">
+    <script src="../js/login.js"></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-1" href="#"><img src="../img/moment-logo-removebg-preview.png" alt="Logo"
+                    width="30" height="30"><span>Moment</span></a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#main"
+                aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon "></span> -->
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="main">
+                <ul class="navbar-nav ms-auto pe-3 mb-1 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link  p-lg-2 " aria-current="page" href="../index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  p-lg-2 " href="AVAILABLE-PROPERTIES.html">AVAILABLE PROPERTIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  p-lg-2 " href="#">OUR SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  p-lg-2" href="#">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  p-lg-2" href="#">PORTFOLIO</a>
+                    </li>
+                </ul>
+                <form class=" search d-none d-lg-flex" role="search">
+                    <input class="form-control me-2 rounded-pill" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button class="btn rounded-pill" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+
+
+                <div class="d-flex ms-3">
+                    <a href="/HTML/Login.html"><button type="button"
+                            class=" btn-gold btn  btn-warning rounded-pill me-2">Login</button></a>
+                </div>
+
+            </div>
+    </nav>
+
+    <section class="section">
+        <div class="back-container">
+            <div class="container">
+                <div class="Login-C">
+                    <div id="login-in-c" class="form-box login">
+                        <div id="user-l" class="user">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </div>
+                        <h2>Log in</h2>
+                        <form action="">
+                            <div class="input-box login">
+                                <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                                <input id="Username" type="text" required " >
+                            <label for=" Username">Username</label>
+                            </div>
+                            <div class="input-box login">
+                                <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                                <input id="LogPassword" type="password" required ">
+                            <label for=" LogPassword">Password</label>
+                            </div>
+                            <button id="LogButton" type="submit" class="btn btn-Login login">Login</button>
+                            <p class="login">This is my first time , <span class="btn" id="sing-r">sign up</span></p>
+                        </form>
+                    </div>
+                </div>
+                <!-- sing in -->
+                <div class="sinein-C">
+
+                    <div id="sing-in-c" class="form-box login">
+                        <div class="user">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </div>
+                        <h2>Sing up</h2>
+                        <form action="">
+                            <div class="input-box login">
+                                <span class="icon"><i class="fa-solid fa-id-card-clip"></i></i></span>
+                                <input id="ID" type="numper" required>
+                                <label for="ID">ID</label>
+                            </div>
+                            <div class="input-box login">
+                                <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                                <input id="email" type="email" required>
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-box login">
+                                <span class="icon"><i class="fa-solid fa-phone"></i></i></span>
+                                <input id="phone" type="phone" required>
+                                <label for="phone">phone</label>
+                            </div>
+                            <div class="input-box login">
+                                <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                                <input id="password" type="password" required>
+                                <label for="password">Password</label>
+                            </div>
+                            <button id="SignButton" type="submit" class="btn btn-Login sign">sign up</button>
+                            <p class="sign">I have account , <span class="btn" id="login-r">Log in</span></p>
+                        </form>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/all.min.js"></script>
+</body>
+
+</html>

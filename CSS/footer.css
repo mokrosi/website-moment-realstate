@@ -1,0 +1,93 @@
+#footer {
+  background-color: #0A1F3E;
+  padding: 20px;
+  text-align: center;
+}
+
+#logo_footer {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#logo_footer img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.page_list_footer {
+  color: #eac701;
+  margin-bottom: 15px;
+  font-family: "Times New Roman";
+  font-size: 20px;
+  display: flex;
+  justify-content: right;
+  text-align-last: left;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  margin-right: 10%;
+  
+}
+
+#footer table {
+  margin: 0 auto;
+  padding: 0;
+  margin: 0;
+  margin-right: 10%;
+  height: 95%;
+  width: 95%;
+  justify-content: flex-start; 
+}
+
+#footer table tr {
+  margin: 0;
+  padding: 0;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-family: "Times New Roman";
+  font-size: 20px;
+  color: #eac701;
+  
+}
+#footer table td {
+  margin: 0;
+  padding: 0;
+  margin-left: 10%;
+  
+}
+
+.page_list_footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+   
+}
+.page_list_footer li {
+  margin-right: 20px;
+  margin-bottom: 6px;
+  font-size: 15px;
+  
+}
+
+.page_list_footer a {
+  color: #e9e5cf;
+  text-decoration: none;
+  margin-left: 20px;
+  position: relative;
+  text-decoration: none;
+  font-size: 15px;
+
+}
+.page_list_footer a:hover {
+
+  text-decoration: underline;
+  text-decoration-color: #5f9ea0;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+}
+#footer figcaption {
+  color: #dedede;
+}

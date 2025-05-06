@@ -1,0 +1,439 @@
+
+body {
+  /* background-color: cadetblue; */
+  background-color: #004766;
+}
+/*** hero start */
+#open-hero {
+  height: 95vh ;
+  background: url(../IMG/homepage-header.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#open-hero h1 {
+  font-size: 4rem;
+  padding-left: 40px;
+  color: #cbcddc;
+  font-weight: 450; /* Bold */
+  text-align: left;
+  margin-left: 7vh;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  text-shadow: 5px 5px 8px rgb(0, 0, 0);
+  margin-bottom: 40px;
+  margin-top: 70px;
+  
+}
+
+#open-hero h2 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  margin-left: 14.5vh;
+  color: #d4b85c;
+  font-weight: 100; /* Bold */
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-shadow: 5px 5px 8px black;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+}
+#open-hero h3 {
+  font-size: 25px;
+  margin-bottom: 5px;
+  padding-left: 40px;
+  color: #f8f8f8;
+  text-align: left;
+  margin-left: 10vh;
+  text-shadow: 5px 5px 8px black;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+}
+
+/*** hero end */
+
+/*! Who-we-are start */
+.Who-we-are {
+  background-image: url(../IMG/login-bg-1.jpg);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #004766;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  padding-top: 5vh;
+}
+
+.Who-we-are h2 {
+  font-size: 45px;
+  color: #cbcddc;
+  font-weight: 600; /* Bold */
+  /* text-align: left; */
+  font-family: "Times New Roman";
+  margin-left: 5vh;
+  font-weight: bold;
+  text-shadow: 5px 5px 8px rgb(0, 0, 0);
+  text-align: left;
+}
+.Who-we-are p {
+  font-size: 20px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  color: #f8f8f8;
+  text-align: left;
+  margin-left: 5vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 5px 5px 8px black;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+  margin-top: -20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-gold {
+  background-color: #e8bb29;
+  color: #004766;
+  border: 1px solid #d4b85c;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.btn-gold:hover {
+  background-color: #004766;
+  color: #d4b85c;
+  border: 1px solid #d4b85c;
+}
+
+#who-we-are-text {
+  background-color: #00476680;
+  color: #f8f8f8;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma;
+  text-shadow: 5px 5px 8px black;
+  line-height: 1.5;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  padding-top: 5vh;
+
+}
+#who-we-are-img{
+
+  background-image: url(../IMG/house.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 90%;
+  margin-left: 5vh;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+/*! Who-we-are end */
+/*?? our-services start  */
+.our-services{
+  background-image: linear-gradient(to bottom right, #004766, #c8ecf9);
+  /* background-color: #c8ecf9; */
+  padding: 5vh 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 110vh;
+  width: 100%;
+}
+#our-services-icon{
+  color: #ffc107;
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+  padding-bottom: 2px;
+  border-bottom: 5px gold solid;
+  
+}
+
+#our-services-titel{
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ffc107;
+  font-weight: 700px ;  
+}
+#our-services-titel-s{
+  font-family: "Dancing Script", cursive;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 1000 ;  
+}
+.our-services .our-services-sc{
+  display: none;
+}
+.card{
+  background-color: #004766;
+  color: #f8f8f8;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  width: 300px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .card-i{
+  font-size: 25px;
+  color: #ffc107;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.card:hover{
+  transform: translateY(-6px) ;
+  transform: scale(1.06);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.536);
+  transition: .4s;
+}
+.card-title{
+  font-size: 20px;
+  color: #ffc107;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*?? our-services end  */
+
+
+/*todo available-properties start  */
+
+.available-properties{
+  background-image: url(../IMG/offer-home-section.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5vh 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 110vh;
+  width: 100%;
+}
+
+.available-properties .available-properties-sc{
+  display: none;
+}
+
+#available-properties-icon{
+  color: #004766;
+  font-size: 40px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: center;
+  padding-bottom: 2px;
+}
+
+#available-properties-titel{
+  font-size: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #004766;
+  font-weight: 700px ;      
+  margin-bottom: 5px;
+}
+
+#available-properties-icon
+{
+  color: #ffc107;
+ 
+}
+
+.available-properties-img{
+
+  width : auto ;
+  height : 130px;
+}
+
+.card-info{
+  width:200px;
+  text-align: left;
+}
+
+/*todo available-properties end  */
+
+/** contact us start   */
+
+.contact-us{
+  background-image: url(../IMG/CU-HS-BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5vh 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 108vh;
+  width: 100%;
+}
+#contact-us-Container{
+  background-color: #0047668d;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+#contact-us-icon{
+  color: #ffc107;
+  font-size: 40px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: center;
+  padding-bottom: 2px;
+}
+#contact-us-titel{
+  font-size: 60px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #fffdf2;
+  text-shadow: 3px 3px 5px black;
+  font-weight: 700px ;  
+  margin-bottom: 5px;
+}
+#contact-us-location{
+  background-image: url(../img/Map-of-Muscat.png);
+  padding: 45px;
+  border: #ffc107 solid 3px;
+
+}
+#contact-us-location-sub{
+  background-color: #03405acf ;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+
+}
+.contact-us-i{
+  font-size: 45px;
+  color: #ffc107;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #004766;
+}
+.contact-us-i:hover{
+  color: #00b3ff;
+}
+.fa-whatsapp{
+  color: #25D366;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.fa-whatsapp:hover{
+  transition: 0.3s;
+  transform: scale(1.2);
+}
+.fa-envelope{
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.fa-envelope:hover{
+  transition: 0.3s;
+  transform: scale(1.2);
+}
+.fa-phone:hover{
+  transition: 0.3s;
+  transform: scale(1.2);
+}
+
+.CU-meet{
+  background-image: url(../IMG/CU-meet.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: #ffc107 solid 3px;
+}
+.CU-card-title{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+  text-align: center;
+  margin:10px;
+  font-weight: 600;
+}
+/** contact us end   */
+/*!! FAQs start  */
+
+.FAQs{
+  background-image: linear-gradient( to bottom right, #ffffff, #004766);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5vh 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 120vh;
+  width: 100%;
+}
+#FAQs-icon{
+  color: #ffc107;
+  font-size: 45px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-align: center;
+  padding-bottom: 2px;
+
+}
+#FAQs-titel{
+  font-size: 65px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #004766;
+  font-weight: 700px ;  
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 1px black;
+
+}
+.accordion
+{
+  background-color: #004766;
+  color: #f8f8f8;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/*!! FAQs end  */
+
+#GoUp{
+
+  display: none;
+  position: fixed;
+  bottom: 25px;
+  right: 10px;
+  padding: 5px 10px;
+  border: .1px rgba(0, 0, 0, 0.5) solid;
+  border-radius: 8px;
+  background-color: #0f92ca9f;
+  background-color: #04517a;
+  color: white;
+  cursor: pointer;
+}
+
+#GoUp:hover{
+  background-color: #0f92ca9f;
+}

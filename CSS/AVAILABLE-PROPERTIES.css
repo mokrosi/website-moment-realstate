@@ -1,0 +1,177 @@
+/* !! hero start */
+.btn-gold {
+    background-color: #e8bb29;
+    color: #004766;
+    border: 1px solid #d4b85c;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .btn-gold:hover {
+    background-color: #004766;
+    color: #d4b85c;
+    border: 1px solid #d4b85c;
+  }
+  
+
+.container-hero{
+    margin-bottom: -180px;
+
+  }
+.bg-slide {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.4); 
+    padding: 20px;
+  }
+  
+  .overlay{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: bold;
+    font-family: "Segoe UI", Tahoma;
+    text-shadow: 5px 5px 8px black;
+    line-height: 1.5;
+    padding-left: 10vh;
+    padding-right: 10vh;
+  }
+
+  .overlay h1 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-shadow: 5px 10px 20px black;
+    
+  }
+
+  #main-titel ,#sub-titel{
+    display: none;
+  }
+
+/* !! hero end */
+/* ?? offerd start */
+#offerd{  
+    width: auto;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    padding-left: 160px;
+    /* background-color: #f3f4f6;  */
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #c4bfbf, #081e44);
+    
+}
+
+
+.property-card {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 1000px;
+    height: 350px;
+    margin: 50px ;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.3s ease;
+    border-radius: 16px;
+    margin: 20px 0px;
+    z-index: 10 ;
+    position: relative;
+  }
+
+  .property-card:hover {
+    transform: translateY(-6px) ;
+    transform: scale(1.01);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.26);
+
+  }
+  .card-image {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    border-radius: 16px 0 0 16px;
+  }
+
+  .property-info {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  
+  .property-title {
+    color: #004766;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .property-location {
+    color: #777;
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  .property-description {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #444;
+  }
+  .property-ID {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #535353;
+  }
+  
+  .property-price {
+    font-size: 1.5rem;
+    color: #D4AF37;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .property-btn {
+    background-color: #004766;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    align-self: flex-start;
+  }
+  .property-btn:hover {
+    background-color: #b8902f;
+  }
+  
+  .carousel-inner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    overflow: hidden;
+  }
+  
+/* ?? offerd end */
+
+/* btn */
+.Cbtn{
+  display: flex;
+  justify-content: center;
+  margin: 8px;
+  padding: 8px;
+}

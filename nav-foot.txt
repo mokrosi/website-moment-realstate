@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>AVAILABLE PROPERTIES</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-1" href="#"><img src="../img/moment-logo-removebg-preview.png" alt="Logo"
+                    width="30" height="30"><span>Moment</span></a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#main"
+                aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon "></span> -->
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="main">
+                <ul class="navbar-nav ms-auto pe-3 mb-1 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link  p-lg-2 " aria-current="page" href="../index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  p-lg-2 active " href="AVAILABLE-PROPERTIES.html">AVAILABLE PROPERTIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  p-lg-2 " href="#">OUR SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  p-lg-2" href="#">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  p-lg-2" href="#">PORTFOLIO</a>
+                    </li>
+                </ul>
+                <form class=" search d-none d-lg-flex" role="search">
+                    <input class="form-control me-2 rounded-pill" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button class="btn rounded-pill" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+
+
+                <div class="d-flex ms-3">
+                    <a href="../HTML/Login.html"><button type="button"  class=" btn-gold btn  btn-warning rounded-pill me-2">Login</button></a>
+                </div>
+
+            </div>
+    </nav>
+
+
+    <footer>
+
+        <div id="footer">
+
+
+            <table>
+                <tr>
+                    <td>
+                        <div id="logo_footer">
+                            <figure>
+                                <img src="../IMG/moment-logo-removebg-preview.png" alt="Moment Logo">
+                                <figcaption>Moment</figcaption>
+                            </figure>
+
+                        </div>
+                    </td>
+                    <td>
+                        <div class="page_list_footer">
+                            <ul>
+                                <h3>pages</h3><br>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">OUR SERVICES</a></li>
+                                <li><a href="#">CONTACT US</a></li>
+                                <li><a href="#">AVAILABLE PROPERTIES</a></li>
+                                <li><a href="#">PORTFOLIO</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="page_list_footer">
+                            <ul>
+                                <h3>Contact</h3><br>
+                                <li><a href="#">email@gmail.com</a></li>
+                                <li><a href="#">+968 90000000</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+
+
+
+
+            </table>
+        </div>
+    </footer>
+
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/all.min.js"></script>
+</body>
+
+</html>
